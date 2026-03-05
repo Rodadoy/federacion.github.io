@@ -1,5 +1,5 @@
 Fase de Pruebas de Federación RDFs CNIG 
 05/03/2026 Primera prueba desde el usuario de CNIG a federar RDF. Se ha creado la fuente de federacion desde este repositorio a demo.datos.gob
 Hemos subido solo un RDF con un catalogo de un dataset (Divisiones Administrativas)
-La federación ha salido con errores aun asi ha generado un archivo y se ha subido a demo. Este rdf esta solo con la información de catálogo y una distribucion. 
+La federación ha salido con errores aun asi ha generado un archivo y se ha subido a demo.
 Se ha perdido la mayoria de la información. Las clases dentro del rdf también las elimina y las renombra <Description>

@@ -1,4 +1,7 @@
 Fase de Pruebas de Federación RDFs CNIG 
+
+===================== PRUEBA 1 =======================
+
 05/03/2026 Primera prueba desde el usuario de CNIG a federar RDF. Se ha creado la fuente de federacion desde este repositorio a demo.datos.gob
 Hemos subido solo un RDF con un catalogo de un dataset (Divisiones Administrativas)
 
@@ -15,15 +18,16 @@ Usuario: CNIG
 Tarea: 70fc958b-9b30-4d21-b93c-9e7be5b0e17f:
           66 WARNINGS
           14 INFO
-          13 ERRORES
-(VER Informe de Errores_prueba_1 para más detalles)
+          13 ERRORES (publisher x4; servesDataset x4; FOAF:PAGE x4; endpoint x1)
+          (VER Resumen o Informe de Errores_prueba_1 para más detalles)
 
 ----------------OBSERVACIONES-------------------
 # A pesar de los errores sí ha federado y se ha creado un rdf en el catálogo de datos.gob 'Divisiones Administrativas'
 # Este RDF difiere bastante del de origen:
   a) Cambia la estrucutura: los nombres de las clases se cambian a Description
-  b) Se pierde información : clases enteras desaparecen (servicios o catálogo)
+  b) Se pierde mucha información : clases enteras desaparecen (servicios o catálogo)
   c) Propiedades : algunas desaparecen , otras se modican y otras se crean nuevas.
 
+----------------CONCLUSIONES----------------------
  
  

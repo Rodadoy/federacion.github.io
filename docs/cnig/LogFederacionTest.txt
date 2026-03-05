@@ -1,5 +1,20 @@
 Fase de Pruebas de Federación RDFs CNIG 
 05/03/2026 Primera prueba desde el usuario de CNIG a federar RDF. Se ha creado la fuente de federacion desde este repositorio a demo.datos.gob
 Hemos subido solo un RDF con un catalogo de un dataset (Divisiones Administrativas)
-La federación ha salido con errores aun asi ha generado un archivo y se ha subido a demo.
-Se ha perdido la mayoria de la información. Las clases dentro del rdf también las elimina y las renombra <Description>
+
+ >>> Registro rdf : SpainLMM_0.9.9 <<<<<
+ https://colaboraage.sharepoint.com/:u:/r/sites/DIGITAL-GestindelaDemandadelDatoPblico/Documentos%20compartidos/Proyecto/10%20Casos%20de%20Uso/10.02%20Proyectos/MITMS-IGN-CNIG/2.Ejecuci%C3%B3n/B3.%20Dise%C3%B1o%20y%20Ejecuci%C3%B3n%20de%20Casos%20de%20Uso/A%203.14%20Federaci%C3%B3n/Demo%20RDF%20a%20Federar%200.9.9/spaignLLM/dcatapes_transform.rdf?csf=1&web=1&e=bmcw44
+
+>>>>> Errores Validador local: 8errores-- metadato afectado : publisher <<<<<<<<<<<
+ https://colaboraage.sharepoint.com/:u:/r/sites/DIGITAL-GestindelaDemandadelDatoPblico/Documentos%20compartidos/Proyecto/10%20Casos%20de%20Uso/10.02%20Proyectos/MITMS-IGN-CNIG/2.Ejecuci%C3%B3n/B3.%20Dise%C3%B1o%20y%20Ejecuci%C3%B3n%20de%20Casos%20de%20Uso/A%203.14%20Federaci%C3%B3n/Demo%20RDF%20a%20Federar%200.9.9/spaignLLM/dcatapes_transform.rdf?csf=1&web=1&e=bmcw447
+
+FEDERACION demo.datos.gob:
+
+-----------------RESULTADOS----------------
+Tarea: 70fc958b-9b30-4d21-b93c-9e7be5b0e17f:
+          66 WARNINGS
+          14 INFO
+          13 ERRORES
+(VER Informe de Errores_prueba_1 para más detalles)
+
+--------------OBSERVACIONES-------------------

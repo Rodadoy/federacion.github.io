@@ -11,10 +11,19 @@ Hemos subido solo un RDF con un catalogo de un dataset (Divisiones Administrativ
 FEDERACION demo.datos.gob:
 
 -----------------RESULTADOS----------------
+Usuario: CNIG
 Tarea: 70fc958b-9b30-4d21-b93c-9e7be5b0e17f:
           66 WARNINGS
           14 INFO
           13 ERRORES
 (VER Informe de Errores_prueba_1 para más detalles)
 
---------------OBSERVACIONES-------------------
+----------------OBSERVACIONES-------------------
+# A pesar de los errores sí ha federado y se ha creado un rdf en el catálogo de datos.gob 'Divisiones Administrativas'
+# Este RDF difiere bastante del de origen:
+  a) Cambia la estrucutura: los nombres de las clases se cambian a Description
+  b) Se pierde información : clases enteras desaparecen (servicios o catálogo)
+  c) Propiedades : algunas desaparecen , otras se modican y otras se crean nuevas.
+
+ 
+ 

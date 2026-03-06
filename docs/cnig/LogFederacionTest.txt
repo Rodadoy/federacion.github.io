@@ -15,7 +15,7 @@ FEDERACION demo.datos.gob:
 
 -----------------RESULTADOS----------------
 Usuario: CNIG
-Tarea: 70fc958b-9b30-4d21-b93c-9e7be5b0e17f:
+
           66 WARNINGS
           14 INFO
           13 ERRORES (publisher x4; servesDataset x4; FOAF:PAGE x4; endpoint x1)
@@ -28,6 +28,31 @@ Tarea: 70fc958b-9b30-4d21-b93c-9e7be5b0e17f:
   b) Se pierde mucha información : clases enteras desaparecen (servicios o catálogo)
   c) Propiedades : algunas desaparecen , otras se modican y otras se crean nuevas.
 
-----------------CONCLUSIONES----------------------
- 
- 
+------------- CONCLUSIONES------------------
+
+-> Los rdfs:abouts(Que identifican cada elemento de clases y las referencian) se crean automáticamente . En la siguiente prueba los eliminaremos de nuestro rdf.
+-> No está detectando los servicios
+-> Las foaf:page si que están pero tampoco las detecta  ???
+-> Los foaf:Organization sí que los está leyendo bien.
+-> La información de Catalogo desaparece y alguna propiedad va al dataset. Quitar Catalogo en siguientes tests para comprobarlo
+-> Dataset parece que esta bien aunque coge cosas de catalogo.
+-> Se crea automaticamente una seccion que puede ser Catalog Records, con las fechas (dcterms:issued,dcterms:modified ) y dcterms:identifier, foaf:primaryTopic,
+rdf:type asi como su rdf:about.
+-> Los espacios de nombres están OK
+
+======================================================
+                     PRUEBA 2 
+======================================================
+
+ 06/3/2025  Segunda prueba desde el usuario de CNIG a federar RDF. 
+Hemos subido el RDF de la prueba 1 (Divisiones Administrativas) y se ha modificado:
+# rdf: abouts quitados
+# Eliminado todos los servicos menos uno.
+# Añadido publisher en servicio
+
+No funciona la federacion, se queda pillada la pag de datos.gob al dar a federar :
+Tarea: f467db2f-a353-48de-808f-e0952b93b2fa Running
+Empezada: Aún no — Terminada: Aún no lleva asi 40 mins
+
+----------------- RESULTADOS---------------------------------
+

@@ -15,20 +15,7 @@
     <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority"/>
   </foaf:Organization>
   <dcat:Catalog>
-    <dct:title xml:lang="es">Catálogo de CNIG-IGN</dct:title>
-    <dct:description xml:lang="es">Conjunto de Datasets del CNIG</dct:description>
-    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-01T00:00:00+01:00</dct:issued>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-02T00:00:00+01:00</dct:modified>
-    <foaf:homepage rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/home"/>
-    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/CAT"/>
-    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
-    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
-   
-    <dcat:service>
+      <dcat:service>
       <dcat:DataService>
         <dct:title xml:lang="es">Servicio de visualización (WMS) de Unidades administrativas de España</dct:title>
         <dct:title xml:lang="en">View service (WMS) Administrative Units of Spain</dct:title>

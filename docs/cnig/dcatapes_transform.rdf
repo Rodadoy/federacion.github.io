@@ -46,7 +46,7 @@
     </dcat:service>
    
     <dcat:dataset>
-      <dcat:Dataset rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignLLM/formatters/xml">
+      <dcat:Dataset>
         <dct:title xml:lang="es">Divisiones Administrativas de España</dct:title>
         <dct:title xml:lang="en">Administrative Units of Spain</dct:title>
         <dct:description xml:lang="es">Recintos municipales, provinciales y autonómicos y líneas límite municipales, provinciales y autonómicas inscritos en el Registro Central de Cartografía (RCC)(https://www.ign.es/web/ign/portal/rcc-area-rcc). La geometría inscrita en el RCC responde a la interpretación de los títulos jurídicos inscritos en el RCC: actas de línea límite, resoluciones administrativas, sentencias judiciales, etc. Algunas líneas o tramos de líneas pueden ser "provisionales", es decir, que carecen de título jurídico que avale su geometría y por tanto su representación en la cartografía solo obedece a la necesidad topológica del cierre de polígonos municipales.
@@ -81,7 +81,7 @@
         <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
         <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
         <adms:identifier>
-          <adms:Identifier rdf:about="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM">
+          <adms:Identifier>
             <skos:notation>spaignLLM</skos:notation>
             <dct:identifier rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM"/>
             <rdfs:comment rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/"/>

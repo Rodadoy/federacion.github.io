@@ -6,7 +6,7 @@ Fase de Pruebas de Federación RDFs CNIG
 Hemos subido solo un RDF con un catalogo de un dataset (Divisiones Administrativas)
 
  >>> Registro rdf : SpainLMM_0.9.9 <<<<<
- https://colaboraage.sharepoint.com/:u:/r/sites/DIGITAL-GestindelaDemandadelDatoPblico/Documentos%20compartidos/Proyecto/10%20Casos%20de%20Uso/10.02%20Proyectos/MITMS-IGN-CNIG/2.Ejecuci%C3%B3n/B3.%20Dise%C3%B1o%20y%20Ejecuci%C3%B3n%20de%20Casos%20de%20Uso/A%203.14%20Federaci%C3%B3n/Demo%20RDF%20a%20Federar%200.9.9/spaignLLM/dcatapes_transform.rdf?csf=1&web=1&e=bmcw44
+ https://colaboraage.sharepoint.com/:u:/r/sites/DIGITAL-GestindelaDemandadelDatoPblico/Documentos%20compartidos/Proyecto/10%20Casos%20de%20Uso/10.02%20Proyectos/MITMS-IGN-CNIG/2.Ejecuci%C3%B3n/B3.%20Dise%C3%B1o%20y%20Ejecuci%C3%B3n%20de%20Casos%20de%20Uso/A%203.14%20Federaci%C3% B3n/Demo%20RDF%20a%20Federar%200.9.9/spaignLLM/dcatapes_transform.rdf?csf=1&web=1&e=bmcw44
 
 >>>>> Errores Validador local: 8errores-- metadato afectado : publisher <<<<<<<<<<<
  https://colaboraage.sharepoint.com/:u:/r/sites/DIGITAL-GestindelaDemandadelDatoPblico/Documentos%20compartidos/Proyecto/10%20Casos%20de%20Uso/10.02%20Proyectos/MITMS-IGN-CNIG/2.Ejecuci%C3%B3n/B3.%20Dise%C3%B1o%20y%20Ejecuci%C3%B3n%20de%20Casos%20de%20Uso/A%203.14%20Federaci%C3%B3n/Demo%20RDF%20a%20Federar%200.9.9/spaignLLM/dcatapes_transform.rdf?csf=1&web=1&e=bmcw447

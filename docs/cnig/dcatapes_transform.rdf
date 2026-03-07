@@ -54,7 +54,7 @@
         <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
         <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
         <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-        <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&amp;VERSION=2.0.2&amp;REQUEST=GetRecordById&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;ElementSetName=full&amp;ID=spaignLLM#BDLJE"/>
+        <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM"/>
       </dcat:DataService>
     </dcat:service>
    

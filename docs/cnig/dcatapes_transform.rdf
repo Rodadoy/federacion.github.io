@@ -123,8 +123,4 @@
     </dcat:dataset>
   </dcat:Catalog>
 </rdf:RDF>
-# version SpaignLLM 0.9.9 modificada:
-# rdf: abouts quitados
-# Eliminado todos los servicos menos uno.
-# Añadido publisher en servicio
 

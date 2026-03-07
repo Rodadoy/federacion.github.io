@@ -13,7 +13,11 @@
     <foaf:name xml:lang="en">National Centre of Geographic Information (CNIG)</foaf:name>
     <dct:identifier rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
     <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority"/>
-  </foaf:Organization>
+  <adms:Identifier rdf:about="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM">
+    <skos:notation>spaignLLM</skos:notation>
+    <dct:identifier rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM"/>
+    <rdfs:comment rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/"/>
+  </adms:Identifier>
   <dcat:Catalog rdf:about="http://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/home">
     <dct:title xml:lang="es">Catálogo de CNIG-IGN</dct:title>
     <dct:description xml:lang="es">Conjunto de Datasets del CNIG</dct:description>
@@ -31,18 +35,14 @@
     <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_unidades-administrativas/formatters/xml">
       <dct:title xml:lang="es">WFS de Unidades Administrativas de España</dct:title>
       <dct:title xml:lang="en">WFS of Administrative Units of Spain</dct:title>
+      <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
       <dcat:endpointURL rdf:resource="https://www.ign.es/wfs-inspire/unidades-administrativas?request=GetCapabilities&amp;service=WFS&amp;version=2.0.0"/>
       <dcat:endpointURL rdf:resource="https://www.ign.es/wfs-inspire/unidades-administrativas?request=DescribeFeatureType&amp;service=WFS&amp;version=2.0.0"/>
       <dcat:endpointURL rdf:resource="https://www.ign.es/wfs-inspire/unidades-administrativas?request=ListStoredQueries&amp;service=WFS&amp;version=2.0.0"/>
       <dcat:endpointURL rdf:resource="https://www.ign.es/wfs-inspire/unidades-administrativas?request=DescribeStoredQueries&amp;service=WFS&amp;version=2.0.0"/>
       <dcat:endpointURL rdf:resource="https://www.ign.es/wfs-inspire/unidades-administrativas"/>
       <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
-      <dcat:contactPoint>
-        <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
-          <vcard:fn xml:lang="es">Instituto Geográfico Nacional</vcard:fn>
-          <vcard:hasEmail rdf:resource="mailto:ign@mitma.es"/>
-        </vcard:Organization>
-      </dcat:contactPoint>
+      <dcat:contactPoint rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
       <dcat:endpointDescription rdf:resource="https://www.ign.es/wfs-inspire/unidades-administrativas?request=GetCapabilities&amp;service=WFS&amp;version=2.0.0"/>
       <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/hacienda"/>
       <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2009/976"/>
@@ -84,23 +84,13 @@
       <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
       <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
       <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-      <dcat:contactPoint>
-        <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
-          <vcard:fn xml:lang="es">Instituto Geográfico Nacional</vcard:fn>
-          <vcard:hasEmail rdf:resource="mailto:limites_municipales@transportes.gob.es"/>
-        </vcard:Organization>
-      </dcat:contactPoint>
+
       <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
       <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
       <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
       <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-      <adms:identifier>
-        <adms:Identifier rdf:about="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM">
-          <skos:notation>spaignLLM</skos:notation>
-          <dct:identifier rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM"/>
-          <rdfs:comment rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/"/>
-        </adms:Identifier>
-      </adms:identifier>
+      <adms:identifier rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM"/>
+
       <dcat:distribution>
         <dcat:Distribution rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignLLM/formatters/xml">
           <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>

@@ -46,13 +46,36 @@ rdf:type asi como su rdf:about.
 
  06/3/2025  Segunda prueba desde el usuario de CNIG a federar RDF. 
 Hemos subido el RDF de la prueba 1 (Divisiones Administrativas) y se ha modificado:
-# rdf: abouts quitados
+# rdf: abouts quitado de catalago
 # Eliminado todos los servicos menos uno.
 # Añadido publisher en servicio
 
-No funciona la federacion, se queda pillada la pag de datos.gob al dar a federar :
-Tarea: f467db2f-a353-48de-808f-e0952b93b2fa Running
-Empezada: Aún no — Terminada: Aún no lleva asi 40 mins
+------------------------RESULTADOS--------------------------
 
------------------ RESULTADOS---------------------------------
+32 avisos:
+    1 ERROR
+    00 WARNINGS
+    00 INFO
+
+---------------------OBSERVACIONES--------------------------
+# Pasa lo mismo que en la prueba anterior, no detecta los servicios y el rdf se reestructura por completo
+
+------------- CONCLUSIONES------------------
+# Al quitar los rdf:abouts en esta version ,quitar todo los servicios menos uno y añadir el publisher se eliiminan varios errores y warnings anteriores.
+# Como conclusión importante se ha comprobado que siempre va a generar un rdf de todo lo que sí valide y donde haya un error (Servicios) lo omite.
+# El error que sale es de dcat:servesDataset, propiedad que sí existe y está bien. Debe haber algun proceso interno de validación que no está relacionando bien
+los servicios asociados al dataset. Siguientes pruebas cambiamos este metadato
+
+======================================================
+                     PRUEBA 2 
+======================================================
+
+ 06/3/2025  Tercera prueba desde el usuario de CNIG a federar RDF. 
+Hemos subido el RDF de la prueba 2 (Divisiones Administrativas) y se ha modificado:
+# Datos de la clase catalog
+# Se ha cambiado el dcat:servesDataset con la url de adms:identifier
+
+
+
+
 

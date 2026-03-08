@@ -37,7 +37,7 @@
     <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
     <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
     <dcat:service rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_unidades-administrativas/formatters/xml"/>
-    <dcat:dataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignLLM">
+    <dcat:dataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignLLM"/>
   </dcat:Catalog>
   <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_unidades-administrativas/formatters/xml">
     <dct:title xml:lang="es">WFS de Unidades Administrativas de España</dct:title>

@@ -14,10 +14,14 @@
     <dct:identifier rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
     <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority"/>
   </foaf:Organization>
+  <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
+    <vcard:organization-name xml:lang="es">Organismo</vcard:organization-name>
+    <vcard:fn xml:lang="es">Instituto Geográfico Nacional</vcard:fn>
+    <vcard:hasEmail rdf:resource="mailto:limites_municipales@transportes.gob.es"/>
+  </vcard:Organization>
   <adms:Identifier rdf:about="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM">
     <skos:notation>spaignLLM</skos:notation>
-    <dct:identifier rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM"/>
-    <rdfs:comment rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/"/>
+    <dct:identifier rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM"/>   
   </adms:Identifier>
   <dcat:Catalog rdf:about="http://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/home">
     <dct:title xml:lang="es">Catálogo de CNIG-IGN</dct:title>
@@ -33,7 +37,7 @@
     <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
     <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
     <dcat:service rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_unidades-administrativas/formatters/xml"/>
-    <dcat:dataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignLLM/formatters/xml"/>
+    <dcat:dataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignLLM">
   </dcat:Catalog>
   <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_unidades-administrativas/formatters/xml">
     <dct:title xml:lang="es">WFS de Unidades Administrativas de España</dct:title>
@@ -53,14 +57,12 @@
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
-    <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2009/976"/>
-    <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
-    <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
+    <dcat:contactPoint rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional"/>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&amp;VERSION=2.0.2&amp;REQUEST=GetRecordById&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;ElementSetName=full&amp;ID=spaignLLM#BDLJE"/>
+    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignLLM"/>
   </dcat:DataService>  
 
-  <dcat:Dataset rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignLLM/formatters/xml">
+  <dcat:Dataset rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignLLM">
     <dct:title xml:lang="es">Divisiones Administrativas de España</dct:title>
     <dct:title xml:lang="en">Administrative Units of Spain</dct:title>
     <dct:description xml:lang="es">Recintos municipales, provinciales y autonómicos y líneas límite municipales, provinciales y autonómicas inscritos en el Registro Central de Cartografía (RCC)(https://www.ign.es/web/ign/portal/rcc-area-rcc). La geometría inscrita en el RCC responde a la interpretación de los títulos jurídicos inscritos en el RCC: actas de línea límite, resoluciones administrativas, sentencias judiciales, etc. Algunas líneas o tramos de líneas pueden ser "provisionales", es decir, que carecen de título jurídico que avale su geometría y por tanto su representación en la cartografía solo obedece a la necesidad topológica del cierre de polígonos municipales.
@@ -83,21 +85,12 @@
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-    <dcat:contactPoint>
-      <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
-        <vcard:fn xml:lang="es">Instituto Geográfico Nacional</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:limites_municipales@transportes.gob.es"/>
-      </vcard:Organization>
-    </dcat:contactPoint>
+    <dcat:contactPoint rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional"/>
     <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
-    <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
-    <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
     <adms:identifier rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM"/>
     <dcat:distribution>
       <dcat:Distribution rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignLLM/formatters/xml">
-        <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
-        <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
         <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
         <dcat:accessURL rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignLLM/formatters/xml"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
@@ -107,10 +100,7 @@
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
         <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
         <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-        <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_features_ign/formatters/xml"/>
-        <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignatom_download_service/formatters/xml"/>
         <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_unidades-administrativas/formatters/xml"/>
-        <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_unidades_administrativas/formatters/xml"/>
       </dcat:Distribution>
     </dcat:distribution>
   </dcat:Dataset>

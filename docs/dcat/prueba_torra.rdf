@@ -107,7 +107,7 @@
     <hydra:totalItems rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hydra:totalItems>
     <hydra:itemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</hydra:itemsPerPage>
   </hydra:PagedCollection>
-  <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0023645">
+  <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E99999999">
     <foaf:name xml:lang="es">TTEC</foaf:name>
     <dct:identifier>EA0023645</dct:identifier>
   </foaf:Agent>

@@ -15,6 +15,10 @@
     <vcard:hasEmail rdf:resource="mailto:limites_municipales@transportes.gob.es"/>
   </vcard:Organization>
  
+  <adms:Identifier rdf:about="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM">
+    <skos:notation>spaignLLM</skos:notation>
+    <dct:identifier rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM"/>   
+  </adms:Identifier>
   <dcat:Catalog rdf:about="http://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/home">
     <dct:title xml:lang="es">Catálogo de CNIG-IGN</dct:title>
     <dct:description xml:lang="es">Conjunto de Datasets del CNIG</dct:description>
@@ -64,11 +68,8 @@
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/hacienda"/>
     <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
     <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_9427236f"/>
-    <!-- <dct:identifier>spaignLLM</dct:identifier> -->
-    <adms:Identifier rdf:about="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM">
-      <skos:notation>spaignLLM</skos:notation>
-      <dct:identifier rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM"/>   
-    </adms:Identifier>
+    <dct:identifier>spaignLLM</dct:identifier>
+    <adms:identifier rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM">
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:keyword xml:lang="es">Unidades administrativas</dcat:keyword>
     <dcat:keyword xml:lang="es">High-value dataset</dcat:keyword>

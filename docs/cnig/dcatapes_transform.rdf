@@ -69,7 +69,7 @@
     <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
     <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_9427236f"/>
     <dct:identifier>spaignLLM</dct:identifier>
-    <adms:identifier rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM">
+    <adms:identifier rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/metadata/spaignLLM"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:keyword xml:lang="es">Unidades administrativas</dcat:keyword>
     <dcat:keyword xml:lang="es">High-value dataset</dcat:keyword>
@@ -97,7 +97,7 @@
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
         <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
         <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-        <dcat:accessService rdf:resource="/https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_unidades-administrativas"/>
+        <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_unidades-administrativas"/>
       </dcat:Distribution> 
     </dcat:distribution>
   </dcat:Dataset>

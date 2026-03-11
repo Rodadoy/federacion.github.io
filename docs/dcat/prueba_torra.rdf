@@ -30,7 +30,7 @@
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-26T11:00:28+00:00</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-01T00:00:00+00:00</dct:issued>
     <dct:publisher>
-      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401">
+      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/L01100015">
         <foaf:name xml:lang="es">Ministerio de Asuntos Economicos y Transformacion Digital</foaf:name>
         <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority"/>
         <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E99999998"</dct:identifier>
@@ -97,12 +97,7 @@
             <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05233601"/>
           </vcard:Kind>
         </dcat:contactPoint>
-		<dct:creator>
-		  <foaf:Organization>
-			<foaf:name>Achuntament</foaf:name>
-			<dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901</dct:identifier>
-		  </foaf:Organization>
-		</dct:creator>
+		<dct:creator rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/L01100036"/>
       </dcat:Dataset>
     </dcat:dataset>
   </dcat:Catalog>

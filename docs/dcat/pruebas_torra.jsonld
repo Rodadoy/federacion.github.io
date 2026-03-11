@@ -13,8 +13,7 @@
     "locn": "http://www.w3.org/ns/locn#",
     "time": "http://www.w3.org/2006/time#",
     "adms": "http://www.w3.org/ns/adms#",
-    "odrl": "http://www.w3.org/ns/odrl/2/",
-    "impulsadata": "http://tragsatec.es/def/impulsadata#"
+    "odrl": "http://www.w3.org/ns/odrl/2/"
   },
   "@graph": [
     {
@@ -22,38 +21,35 @@
       "@type": "dcat:Catalog",
       "dct:publisher": [
         {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401",
           "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401",
           "foaf:name": [
             {
-              "@value": "Ministerio de Defensa",
+              "@value": "Ministerio de Agricultura, Pesca y Alimentación",
               "@language": "es"
             }
           ]
         }
       ],
       "dct:title": {
-        "@value": "Catálogo del Ministerio de Defensa",
+        "@value": "Catalogo de Ejemplo",
         "@language": "es"
       },
       "dct:issued": [
         {
-          "@value": "2026-04-30T00:00:00+01:00",
+          "@value": "2025-03-09T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:modified": [
         {
-          "@value": "2026-04-30T00:00:00+01:00",
+          "@value": "2026-03-09T00:00:00+01:00",
           "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         }
       ],
       "dct:description": {
-        "@value": "Conjunto de datos publicados referentes a estadisticas de personal del Ministerio de Defensa y datos de emperesas proveedoras de la industria  del española de defensa.",
+        "@value": "Este catalogo es un ejemplo para probar la nueva funcionalidad",
         "@language": "es"
       },
       "dct:language": {
@@ -61,395 +57,14 @@
       },
       "foaf:homepage": [
         {
-          "@id": "https://publicaciones.defensa.gob.es"
+          "@id": "http://web.es/catálogo"
         }
       ],
       "dct:license": {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BYNCSA_4_0"
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
       },
       "dcat:themeTaxonomy": {
         "@id": "http://datos.gob.es/kos/sector-publico/sector"
-      },
-      "dcat:dataset": [
-        {
-          "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:MCARRERA:000001"
-        },
-        {
-          "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:CITERRESTRE:000001"
-        }
-      ],
-      "impulsadata:validationStatus": [
-        {
-          "@language": "es",
-          "@value": "conforme-DCAT-AP-ES"
-        }
-      ],
-      "impulsadata:validationDate": [
-        {
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-          "@value": "2026-03-03T11:25:54.154673+01:00"
-        }
-      ],
-      "impulsadata:validationReport": [
-        {
-          "@value": "Validation Report\nConforms: True\nResults (17):\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Catalog.spatial ; sh:message Literal(\"El catálogo debe contener al menos un valor para dct:spatial.\", lang=es), Literal(\"The catalog must contain at least one value for dct:spatial.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:spatial ; sh:severity sh:Warning ]\n\tFocus Node: <https://datos.organismo.es/catalogo>\n\tResult Path: dct:spatial\n\tMessage: The catalog must contain at least one value for dct:spatial.\n\tMessage: El catálogo debe contener al menos un valor para dct:spatial.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should contain at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería contener al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Secretaria General Técnica Unidad Estadísitca Órgano Central\", lang=es) ; vcard:hasEmail <mailto:infoest@oc.mde.es> ; vcard:hasTelephone <tel:93647427> ; vcard:hasURL <https://publicaciones.defensa.gob.es/contacts/index/> ; vcard:organization-name Literal(\"E00003301\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: Un vcard:Kind debería contener al menos un vcard:hasUID.\n\tMessage: A vcard:Kind should contain at least one vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should contain at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería contener al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Dirección General Estratégica e Innovación de la Industria de Defensa Española\", lang=es) ; vcard:hasEmail <mailto:digeid_esind_apoyoext@mde.es> ; vcard:hasTelephone <tel:917743632> ; vcard:hasURL <https://publicaciones.defensa.gob.es/contacts/index/> ; vcard:organization-name Literal(\"http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: Un vcard:Kind debería contener al menos un vcard:hasUID.\n\tMessage: A vcard:Kind should contain at least one vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Secretaria General Técnica Unidad Estadísitca Órgano Central\", lang=es) ; vcard:hasEmail <mailto:infoest@oc.mde.es> ; vcard:hasTelephone <tel:93647427> ; vcard:hasURL <https://publicaciones.defensa.gob.es/contacts/index/> ; vcard:organization-name Literal(\"E00003301\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\n\tMessage: A vcard:Kind should include at least one vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Dirección General Estratégica e Innovación de la Industria de Defensa Española\", lang=es) ; vcard:hasEmail <mailto:digeid_esind_apoyoext@mde.es> ; vcard:hasTelephone <tel:917743632> ; vcard:hasURL <https://publicaciones.defensa.gob.es/contacts/index/> ; vcard:organization-name Literal(\"http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\n\tMessage: A vcard:Kind should include at least one vcard:hasUID.\nValidation Result in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page <https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19> ; sh:message Literal(\"It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=en), Literal(\"Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=es) ; sh:node dcatapes:VcardKindMinimalConvention ; sh:path dcat:contactPoint ; sh:severity sh:Warning ]\n\tFocus Node: <https://datos.organismo.es/dataset/MDEF:E00003301:ds:CITERRESTRE:000001>\n\tValue Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Dirección General Estratégica e Innovación de la Industria de Defensa Española\", lang=es) ; vcard:hasEmail <mailto:digeid_esind_apoyoext@mde.es> ; vcard:hasTelephone <tel:917743632> ; vcard:hasURL <https://publicaciones.defensa.gob.es/contacts/index/> ; vcard:organization-name Literal(\"http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301\", lang=es) ]\n\tResult Path: dcat:contactPoint\n\tMessage: Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tMessage: It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tDetails:\n\t\tValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\t\t\tSeverity: sh:Warning\n\t\t\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\t\t\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Dirección General Estratégica e Innovación de la Industria de Defensa Española\", lang=es) ; vcard:hasEmail <mailto:digeid_esind_apoyoext@mde.es> ; vcard:hasTelephone <tel:917743632> ; vcard:hasURL <https://publicaciones.defensa.gob.es/contacts/index/> ; vcard:organization-name Literal(\"http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301\", lang=es) ]\n\t\t\tResult Path: vcard:hasUID\n\t\t\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\n\t\t\tMessage: A vcard:Kind should include at least one vcard:hasUID.\nValidation Result in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page <https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19> ; sh:message Literal(\"It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=en), Literal(\"Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=es) ; sh:node dcatapes:VcardKindMinimalConvention ; sh:path dcat:contactPoint ; sh:severity sh:Warning ]\n\tFocus Node: <https://datos.organismo.es/dataset/MDEF:E00003301:ds:MCARRERA:000001>\n\tValue Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Secretaria General Técnica Unidad Estadísitca Órgano Central\", lang=es) ; vcard:hasEmail <mailto:infoest@oc.mde.es> ; vcard:hasTelephone <tel:93647427> ; vcard:hasURL <https://publicaciones.defensa.gob.es/contacts/index/> ; vcard:organization-name Literal(\"E00003301\", lang=es) ]\n\tResult Path: dcat:contactPoint\n\tMessage: Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tMessage: It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tDetails:\n\t\tValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\t\t\tSeverity: sh:Warning\n\t\t\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\t\t\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Secretaria General Técnica Unidad Estadísitca Órgano Central\", lang=es) ; vcard:hasEmail <mailto:infoest@oc.mde.es> ; vcard:hasTelephone <tel:93647427> ; vcard:hasURL <https://publicaciones.defensa.gob.es/contacts/index/> ; vcard:organization-name Literal(\"E00003301\", lang=es) ]\n\t\t\tResult Path: vcard:hasUID\n\t\t\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\n\t\t\tMessage: A vcard:Kind should include at least one vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Dataset.temporal ; sh:message Literal(\"El conjunto de datos debería contener al menos un dct:temporal.\", lang=es), Literal(\"The dataset should contain at least one dct:temporal.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:temporal ; sh:severity sh:Warning ]\n\tFocus Node: <https://datos.organismo.es/dataset/MDEF:E00003301:ds:CITERRESTRE:000001>\n\tResult Path: dct:temporal\n\tMessage: The dataset should contain at least one dct:temporal.\n\tMessage: El conjunto de datos debería contener al menos un dct:temporal.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Dataset.temporal ; sh:message Literal(\"El conjunto de datos debería contener al menos un dct:temporal.\", lang=es), Literal(\"The dataset should contain at least one dct:temporal.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:temporal ; sh:severity sh:Warning ]\n\tFocus Node: <https://datos.organismo.es/dataset/MDEF:E00003301:ds:MCARRERA:000001>\n\tResult Path: dct:temporal\n\tMessage: The dataset should contain at least one dct:temporal.\n\tMessage: El conjunto de datos debería contener al menos un dct:temporal.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Dataset.spatial ; sh:message Literal(\"El conjunto de datos debe contener al menos un valor para dct:spatial.\", lang=es), Literal(\"The dataset must contain at least one value for dct:spatial.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:spatial ; sh:severity sh:Warning ]\n\tFocus Node: <https://datos.organismo.es/dataset/MDEF:E00003301:ds:CITERRESTRE:000001>\n\tResult Path: dct:spatial\n\tMessage: The dataset must contain at least one value for dct:spatial.\n\tMessage: El conjunto de datos debe contener al menos un valor para dct:spatial.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Dataset.spatial ; sh:message Literal(\"El conjunto de datos debe contener al menos un valor para dct:spatial.\", lang=es), Literal(\"The dataset must contain at least one value for dct:spatial.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:spatial ; sh:severity sh:Warning ]\n\tFocus Node: <https://datos.organismo.es/dataset/MDEF:E00003301:ds:MCARRERA:000001>\n\tResult Path: dct:spatial\n\tMessage: The dataset must contain at least one value for dct:spatial.\n\tMessage: El conjunto de datos debe contener al menos un valor para dct:spatial.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Distribution.applicableLegislation ; sh:message Literal(\"La distribución debería contener al menos un dcatap:applicableLegislation.\", lang=es), Literal(\"The distribution should contain at least one dcatap:applicableLegislation.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dcatap:applicableLegislation ; sh:severity sh:Warning ]\n\tFocus Node: <https://publicaciones.defensa.gob.es/media/downloadable/files/links/c/a/catalogo-industria-espa_ola-de-defensa-2025-2026.pdf>\n\tResult Path: dcatap:applicableLegislation\n\tMessage: La distribución debería contener al menos un dcatap:applicableLegislation.\n\tMessage: The distribution should contain at least one dcatap:applicableLegislation.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Distribution.applicableLegislation ; sh:message Literal(\"La distribución debería contener al menos un dcatap:applicableLegislation.\", lang=es), Literal(\"The distribution should contain at least one dcatap:applicableLegislation.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dcatap:applicableLegislation ; sh:severity sh:Warning ]\n\tFocus Node: <https://publicaciones.defensa.gob.es/media/downloadable/files/links/a/n/Militares%20de%20carrera%202024.ods>\n\tResult Path: dcatap:applicableLegislation\n\tMessage: La distribución debería contener al menos un dcatap:applicableLegislation.\n\tMessage: The distribution should contain at least one dcatap:applicableLegislation.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Distribution.description ; sh:message Literal(\"La distribución debería contener al menos un dct:description.\", lang=es), Literal(\"The distribution should contain at least one dct:description.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:description ; sh:severity sh:Warning ]\n\tFocus Node: <https://publicaciones.defensa.gob.es/media/downloadable/files/links/c/a/catalogo-industria-espa_ola-de-defensa-2025-2026.pdf>\n\tResult Path: dct:description\n\tMessage: The distribution should contain at least one dct:description.\n\tMessage: La distribución debería contener al menos un dct:description.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Distribution.description ; sh:message Literal(\"La distribución debería contener al menos un dct:description.\", lang=es), Literal(\"The distribution should contain at least one dct:description.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:description ; sh:severity sh:Warning ]\n\tFocus Node: <https://publicaciones.defensa.gob.es/media/downloadable/files/links/a/n/Militares%20de%20carrera%202024.ods>\n\tResult Path: dct:description\n\tMessage: The distribution should contain at least one dct:description.\n\tMessage: La distribución debería contener al menos un dct:description.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Distribution.title ; sh:message Literal(\"La distribución debería contener al menos un dct:title.\", lang=es), Literal(\"The distribution should contain at least one dct:title.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:title ; sh:severity sh:Warning ]\n\tFocus Node: <https://publicaciones.defensa.gob.es/media/downloadable/files/links/c/a/catalogo-industria-espa_ola-de-defensa-2025-2026.pdf>\n\tResult Path: dct:title\n\tMessage: La distribución debería contener al menos un dct:title.\n\tMessage: The distribution should contain at least one dct:title.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Distribution.title ; sh:message Literal(\"La distribución debería contener al menos un dct:title.\", lang=es), Literal(\"The distribution should contain at least one dct:title.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:title ; sh:severity sh:Warning ]\n\tFocus Node: <https://publicaciones.defensa.gob.es/media/downloadable/files/links/a/n/Militares%20de%20carrera%202024.ods>\n\tResult Path: dct:title\n\tMessage: La distribución debería contener al menos un dct:title.\n\tMessage: The distribution should contain at least one dct:title.\n\nResumen validacion: errores=0, warnings=17, conforme=True"
-        }
-      ]
-    },
-    {
-      "@type": "dcat:Dataset",
-      "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:MCARRERA:000001",
-      "dct:publisher": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
-          "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Ministerio de Defensa",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:title": {
-        "@value": "Estadísticas sobre el personal Militares de Carrera y su distribución por empleo, provincias, ejércitos, situación administrativa",
-        "@language": "es"
-      },
-      "dct:description": {
-        "@value": "Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica. Ofrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc. La calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística. Se agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.",
-        "@language": "es"
-      },
-      "dct:accessRights": {
-        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-      },
-      "dct:issued": [
-        {
-          "@value": "2025-09-25T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2025-09-25T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcat:theme": {
-        "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
-      },
-      "dcat:keyword": [
-        {
-          "@value": "Empleos",
-          "@language": "es"
-        },
-        {
-          "@value": "Oficiales",
-          "@language": "es"
-        },
-        {
-          "@value": "Suboficiales",
-          "@language": "es"
-        },
-        {
-          "@value": "Soldados",
-          "@language": "es"
-        },
-        {
-          "@value": "Marineros",
-          "@language": "es"
-        },
-        {
-          "@value": "Mujeres",
-          "@language": "es"
-        },
-        {
-          "@value": "carrera",
-          "@language": "es"
-        },
-        {
-          "@value": "complemento",
-          "@language": "es"
-        },
-        {
-          "@value": "intendencia",
-          "@language": "es"
-        },
-        {
-          "@value": "comunes",
-          "@language": "es"
-        }
-      ],
-      "dcat:contactPoint": [
-        {
-          "@type": "vcard:Kind",
-          "vcard:organization-name": [
-            {
-              "@value": "E00003301",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasUID": [
-            {
-              "@id": "Ministerio de Defensa"
-            }
-          ],
-          "vcard:fn": [
-            {
-              "@value": "Secretaria General Técnica Unidad Estadísitca Órgano Central",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasEmail": [
-            {
-              "@id": "mailto:infoest@oc.mde.es"
-            }
-          ],
-          "vcard:hasTelephone": [
-            {
-              "@id": "tel:93647427"
-            }
-          ],
-          "vcard:hasURL": [
-            {
-              "@id": "https://publicaciones.defensa.gob.es/contacts/index/"
-            }
-          ]
-        }
-      ],
-      "dcat:distribution": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/media/downloadable/files/links/a/n/Militares%20de%20carrera%202024.ods"
-        }
-      ],
-      "impulsadata:validationStatus": [
-        {
-          "@language": "es",
-          "@value": "conforme-DCAT-AP-ES"
-        }
-      ],
-      "impulsadata:validationDate": [
-        {
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-          "@value": "2026-03-03T11:25:54.154673+01:00"
-        }
-      ],
-      "impulsadata:validationReport": [
-        {
-          "@value": "Validation Report\nConforms: True\nResults (17):\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Catalog.spatial ; sh:message Literal(\"El catálogo debe contener al menos un valor para dct:spatial.\", lang=es), Literal(\"The catalog must contain at least one value for dct:spatial.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:spatial ; sh:severity sh:Warning ]\n\tFocus Node: <https://datos.organismo.es/catalogo>\n\tResult Path: dct:spatial\n\tMessage: The catalog must contain at least one value for dct:spatial.\n\tMessage: El catálogo debe contener al menos un valor para dct:spatial.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should contain at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería contener al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Secretaria General Técnica Unidad Estadísitca Órgano Central\", lang=es) ; vcard:hasEmail <mailto:infoest@oc.mde.es> ; vcard:hasTelephone <tel:93647427> ; vcard:hasURL <https://publicaciones.defensa.gob.es/contacts/index/> ; vcard:organization-name Literal(\"E00003301\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: Un vcard:Kind debería contener al menos un vcard:hasUID.\n\tMessage: A vcard:Kind should contain at least one vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should contain at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería contener al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Dirección General Estratégica e Innovación de la Industria de Defensa Española\", lang=es) ; vcard:hasEmail <mailto:digeid_esind_apoyoext@mde.es> ; vcard:hasTelephone <tel:917743632> ; vcard:hasURL <https://publicaciones.defensa.gob.es/contacts/index/> ; vcard:organization-name Literal(\"http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: Un vcard:Kind debería contener al menos un vcard:hasUID.\n\tMessage: A vcard:Kind should contain at least one vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Secretaria General Técnica Unidad Estadísitca Órgano Central\", lang=es) ; vcard:hasEmail <mailto:infoest@oc.mde.es> ; vcard:hasTelephone <tel:93647427> ; vcard:hasURL <https://publicaciones.defensa.gob.es/contacts/index/> ; vcard:organization-name Literal(\"E00003301\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\n\tMessage: A vcard:Kind should include at least one vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Dirección General Estratégica e Innovación de la Industria de Defensa Española\", lang=es) ; vcard:hasEmail <mailto:digeid_esind_apoyoext@mde.es> ; vcard:hasTelephone <tel:917743632> ; vcard:hasURL <https://publicaciones.defensa.gob.es/contacts/index/> ; vcard:organization-name Literal(\"http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\n\tMessage: A vcard:Kind should include at least one vcard:hasUID.\nValidation Result in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page <https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19> ; sh:message Literal(\"It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=en), Literal(\"Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=es) ; sh:node dcatapes:VcardKindMinimalConvention ; sh:path dcat:contactPoint ; sh:severity sh:Warning ]\n\tFocus Node: <https://datos.organismo.es/dataset/MDEF:E00003301:ds:CITERRESTRE:000001>\n\tValue Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Dirección General Estratégica e Innovación de la Industria de Defensa Española\", lang=es) ; vcard:hasEmail <mailto:digeid_esind_apoyoext@mde.es> ; vcard:hasTelephone <tel:917743632> ; vcard:hasURL <https://publicaciones.defensa.gob.es/contacts/index/> ; vcard:organization-name Literal(\"http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301\", lang=es) ]\n\tResult Path: dcat:contactPoint\n\tMessage: Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tMessage: It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tDetails:\n\t\tValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\t\t\tSeverity: sh:Warning\n\t\t\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\t\t\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Dirección General Estratégica e Innovación de la Industria de Defensa Española\", lang=es) ; vcard:hasEmail <mailto:digeid_esind_apoyoext@mde.es> ; vcard:hasTelephone <tel:917743632> ; vcard:hasURL <https://publicaciones.defensa.gob.es/contacts/index/> ; vcard:organization-name Literal(\"http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301\", lang=es) ]\n\t\t\tResult Path: vcard:hasUID\n\t\t\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\n\t\t\tMessage: A vcard:Kind should include at least one vcard:hasUID.\nValidation Result in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page <https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19> ; sh:message Literal(\"It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=en), Literal(\"Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=es) ; sh:node dcatapes:VcardKindMinimalConvention ; sh:path dcat:contactPoint ; sh:severity sh:Warning ]\n\tFocus Node: <https://datos.organismo.es/dataset/MDEF:E00003301:ds:MCARRERA:000001>\n\tValue Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Secretaria General Técnica Unidad Estadísitca Órgano Central\", lang=es) ; vcard:hasEmail <mailto:infoest@oc.mde.es> ; vcard:hasTelephone <tel:93647427> ; vcard:hasURL <https://publicaciones.defensa.gob.es/contacts/index/> ; vcard:organization-name Literal(\"E00003301\", lang=es) ]\n\tResult Path: dcat:contactPoint\n\tMessage: Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tMessage: It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tDetails:\n\t\tValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\t\t\tSeverity: sh:Warning\n\t\t\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\t\t\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Secretaria General Técnica Unidad Estadísitca Órgano Central\", lang=es) ; vcard:hasEmail <mailto:infoest@oc.mde.es> ; vcard:hasTelephone <tel:93647427> ; vcard:hasURL <https://publicaciones.defensa.gob.es/contacts/index/> ; vcard:organization-name Literal(\"E00003301\", lang=es) ]\n\t\t\tResult Path: vcard:hasUID\n\t\t\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\n\t\t\tMessage: A vcard:Kind should include at least one vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Dataset.temporal ; sh:message Literal(\"El conjunto de datos debería contener al menos un dct:temporal.\", lang=es), Literal(\"The dataset should contain at least one dct:temporal.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:temporal ; sh:severity sh:Warning ]\n\tFocus Node: <https://datos.organismo.es/dataset/MDEF:E00003301:ds:CITERRESTRE:000001>\n\tResult Path: dct:temporal\n\tMessage: The dataset should contain at least one dct:temporal.\n\tMessage: El conjunto de datos debería contener al menos un dct:temporal.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Dataset.temporal ; sh:message Literal(\"El conjunto de datos debería contener al menos un dct:temporal.\", lang=es), Literal(\"The dataset should contain at least one dct:temporal.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:temporal ; sh:severity sh:Warning ]\n\tFocus Node: <https://datos.organismo.es/dataset/MDEF:E00003301:ds:MCARRERA:000001>\n\tResult Path: dct:temporal\n\tMessage: The dataset should contain at least one dct:temporal.\n\tMessage: El conjunto de datos debería contener al menos un dct:temporal.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Dataset.spatial ; sh:message Literal(\"El conjunto de datos debe contener al menos un valor para dct:spatial.\", lang=es), Literal(\"The dataset must contain at least one value for dct:spatial.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:spatial ; sh:severity sh:Warning ]\n\tFocus Node: <https://datos.organismo.es/dataset/MDEF:E00003301:ds:CITERRESTRE:000001>\n\tResult Path: dct:spatial\n\tMessage: The dataset must contain at least one value for dct:spatial.\n\tMessage: El conjunto de datos debe contener al menos un valor para dct:spatial.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Dataset.spatial ; sh:message Literal(\"El conjunto de datos debe contener al menos un valor para dct:spatial.\", lang=es), Literal(\"The dataset must contain at least one value for dct:spatial.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:spatial ; sh:severity sh:Warning ]\n\tFocus Node: <https://datos.organismo.es/dataset/MDEF:E00003301:ds:MCARRERA:000001>\n\tResult Path: dct:spatial\n\tMessage: The dataset must contain at least one value for dct:spatial.\n\tMessage: El conjunto de datos debe contener al menos un valor para dct:spatial.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Distribution.applicableLegislation ; sh:message Literal(\"La distribución debería contener al menos un dcatap:applicableLegislation.\", lang=es), Literal(\"The distribution should contain at least one dcatap:applicableLegislation.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dcatap:applicableLegislation ; sh:severity sh:Warning ]\n\tFocus Node: <https://publicaciones.defensa.gob.es/media/downloadable/files/links/c/a/catalogo-industria-espa_ola-de-defensa-2025-2026.pdf>\n\tResult Path: dcatap:applicableLegislation\n\tMessage: La distribución debería contener al menos un dcatap:applicableLegislation.\n\tMessage: The distribution should contain at least one dcatap:applicableLegislation.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Distribution.applicableLegislation ; sh:message Literal(\"La distribución debería contener al menos un dcatap:applicableLegislation.\", lang=es), Literal(\"The distribution should contain at least one dcatap:applicableLegislation.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dcatap:applicableLegislation ; sh:severity sh:Warning ]\n\tFocus Node: <https://publicaciones.defensa.gob.es/media/downloadable/files/links/a/n/Militares%20de%20carrera%202024.ods>\n\tResult Path: dcatap:applicableLegislation\n\tMessage: La distribución debería contener al menos un dcatap:applicableLegislation.\n\tMessage: The distribution should contain at least one dcatap:applicableLegislation.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Distribution.description ; sh:message Literal(\"La distribución debería contener al menos un dct:description.\", lang=es), Literal(\"The distribution should contain at least one dct:description.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:description ; sh:severity sh:Warning ]\n\tFocus Node: <https://publicaciones.defensa.gob.es/media/downloadable/files/links/c/a/catalogo-industria-espa_ola-de-defensa-2025-2026.pdf>\n\tResult Path: dct:description\n\tMessage: The distribution should contain at least one dct:description.\n\tMessage: La distribución debería contener al menos un dct:description.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Distribution.description ; sh:message Literal(\"La distribución debería contener al menos un dct:description.\", lang=es), Literal(\"The distribution should contain at least one dct:description.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:description ; sh:severity sh:Warning ]\n\tFocus Node: <https://publicaciones.defensa.gob.es/media/downloadable/files/links/a/n/Militares%20de%20carrera%202024.ods>\n\tResult Path: dct:description\n\tMessage: The distribution should contain at least one dct:description.\n\tMessage: La distribución debería contener al menos un dct:description.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Distribution.title ; sh:message Literal(\"La distribución debería contener al menos un dct:title.\", lang=es), Literal(\"The distribution should contain at least one dct:title.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:title ; sh:severity sh:Warning ]\n\tFocus Node: <https://publicaciones.defensa.gob.es/media/downloadable/files/links/c/a/catalogo-industria-espa_ola-de-defensa-2025-2026.pdf>\n\tResult Path: dct:title\n\tMessage: La distribución debería contener al menos un dct:title.\n\tMessage: The distribution should contain at least one dct:title.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Distribution.title ; sh:message Literal(\"La distribución debería contener al menos un dct:title.\", lang=es), Literal(\"The distribution should contain at least one dct:title.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:title ; sh:severity sh:Warning ]\n\tFocus Node: <https://publicaciones.defensa.gob.es/media/downloadable/files/links/a/n/Militares%20de%20carrera%202024.ods>\n\tResult Path: dct:title\n\tMessage: La distribución debería contener al menos un dct:title.\n\tMessage: The distribution should contain at least one dct:title.\n\nResumen validacion: errores=0, warnings=17, conforme=True"
-        }
-      ]
-    },
-    {
-      "@id": "https://publicaciones.defensa.gob.es/media/downloadable/files/links/a/n/Militares%20de%20carrera%202024.ods",
-      "@type": "dcat:Distribution",
-      "dcat:accessURL": {
-        "@id": "https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"
-      },
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
-      },
-      "dct:license": {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BYNCSA_4_0"
-      },
-      "dct:issued": [
-        {
-          "@value": "2026-04-30T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-04-30T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcatap:availability": {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://publicaciones.defensa.gob.es/media/downloadable/files/links/a/n/Militares%20de%20carrera%202024.ods"
-      }
-    },
-    {
-      "@type": "dcat:Dataset",
-      "@id": "https://datos.organismo.es/dataset/MDEF:E00003301:ds:CITERRESTRE:000001",
-      "dct:publisher": [
-        {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
-          "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
-          "dct:type": {
-            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
-          },
-          "foaf:name": [
-            {
-              "@value": "Ministerio de Defensa",
-              "@language": "es"
-            }
-          ]
-        }
-      ],
-      "dct:title": {
-        "@value": "Catálogo industria española de Defensa. Sexta edición",
-        "@language": "es"
-      },
-      "dct:description": {
-        "@value": "Este catálogo nació para dar respuesta a una necesidad identificada por la Oficina de Apoyo Exterior (OFICAEX) de la Subdirección General de Relaciones Internacionales de la DGAM: disponer de una publicación oficial, pública y gratuita, que facilitase el dar a conocer y promover en los mercados exteriores las capacidades de la industria española de defensa. Dicha publicación debería ofrecer, en un formato amigable y cómodo en su manejo por los usuarios, información contrastada, sin clasificar, de las capacidades de nuestra industria, facilitándose así su más amplia difusión. Otro requisito esencial era el de su imparcialidad y apertura a toda la industria del sector.",
-        "@language": "es"
-      },
-      "dct:accessRights": {
-        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-      },
-      "dct:issued": [
-        {
-          "@value": "2025-05-25T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2025-05-25T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcat:theme": {
-        "@id": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
-      },
-      "dcat:keyword": [
-        {
-          "@value": "Industria",
-          "@language": "es"
-        },
-        {
-          "@value": "armamento",
-          "@language": "es"
-        },
-        {
-          "@value": "defensa",
-          "@language": "es"
-        },
-        {
-          "@value": "española",
-          "@language": "es"
-        },
-        {
-          "@value": "naves",
-          "@language": "es"
-        },
-        {
-          "@value": "radares",
-          "@language": "es"
-        },
-        {
-          "@value": "logística",
-          "@language": "es"
-        },
-        {
-          "@value": "aeronaves",
-          "@language": "es"
-        },
-        {
-          "@value": "carros",
-          "@language": "es"
-        },
-        {
-          "@value": "blindaje",
-          "@language": "es"
-        }
-      ],
-      "dcat:contactPoint": [
-        {
-          "@type": "vcard:Kind",
-          "vcard:organization-name": [
-            {
-              "@value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasUID": [
-            {
-              "@id": "Ministerio de Defensa"
-            }
-          ],
-          "vcard:fn": [
-            {
-              "@value": "Dirección General Estratégica e Innovación de la Industria de Defensa Española",
-              "@language": "es"
-            }
-          ],
-          "vcard:hasEmail": [
-            {
-              "@id": "mailto:digeid_esind_apoyoext@mde.es"
-            }
-          ],
-          "vcard:hasTelephone": [
-            {
-              "@id": "tel:917743632"
-            }
-          ],
-          "vcard:hasURL": [
-            {
-              "@id": "https://publicaciones.defensa.gob.es/contacts/index/"
-            }
-          ]
-        }
-      ],
-      "dcat:distribution": [
-        {
-          "@id": "https://publicaciones.defensa.gob.es/media/downloadable/files/links/c/a/catalogo-industria-espa_ola-de-defensa-2025-2026.pdf"
-        }
-      ],
-      "impulsadata:validationStatus": [
-        {
-          "@language": "es",
-          "@value": "conforme-DCAT-AP-ES"
-        }
-      ],
-      "impulsadata:validationDate": [
-        {
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-          "@value": "2026-03-03T11:25:54.154673+01:00"
-        }
-      ],
-      "impulsadata:validationReport": [
-        {
-          "@value": "Validation Report\nConforms: True\nResults (17):\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Catalog.spatial ; sh:message Literal(\"El catálogo debe contener al menos un valor para dct:spatial.\", lang=es), Literal(\"The catalog must contain at least one value for dct:spatial.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:spatial ; sh:severity sh:Warning ]\n\tFocus Node: <https://datos.organismo.es/catalogo>\n\tResult Path: dct:spatial\n\tMessage: The catalog must contain at least one value for dct:spatial.\n\tMessage: El catálogo debe contener al menos un valor para dct:spatial.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should contain at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería contener al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Secretaria General Técnica Unidad Estadísitca Órgano Central\", lang=es) ; vcard:hasEmail <mailto:infoest@oc.mde.es> ; vcard:hasTelephone <tel:93647427> ; vcard:hasURL <https://publicaciones.defensa.gob.es/contacts/index/> ; vcard:organization-name Literal(\"E00003301\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: Un vcard:Kind debería contener al menos un vcard:hasUID.\n\tMessage: A vcard:Kind should contain at least one vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should contain at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería contener al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Dirección General Estratégica e Innovación de la Industria de Defensa Española\", lang=es) ; vcard:hasEmail <mailto:digeid_esind_apoyoext@mde.es> ; vcard:hasTelephone <tel:917743632> ; vcard:hasURL <https://publicaciones.defensa.gob.es/contacts/index/> ; vcard:organization-name Literal(\"http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: Un vcard:Kind debería contener al menos un vcard:hasUID.\n\tMessage: A vcard:Kind should contain at least one vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Secretaria General Técnica Unidad Estadísitca Órgano Central\", lang=es) ; vcard:hasEmail <mailto:infoest@oc.mde.es> ; vcard:hasTelephone <tel:93647427> ; vcard:hasURL <https://publicaciones.defensa.gob.es/contacts/index/> ; vcard:organization-name Literal(\"E00003301\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\n\tMessage: A vcard:Kind should include at least one vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Dirección General Estratégica e Innovación de la Industria de Defensa Española\", lang=es) ; vcard:hasEmail <mailto:digeid_esind_apoyoext@mde.es> ; vcard:hasTelephone <tel:917743632> ; vcard:hasURL <https://publicaciones.defensa.gob.es/contacts/index/> ; vcard:organization-name Literal(\"http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301\", lang=es) ]\n\tResult Path: vcard:hasUID\n\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\n\tMessage: A vcard:Kind should include at least one vcard:hasUID.\nValidation Result in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page <https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19> ; sh:message Literal(\"It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=en), Literal(\"Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=es) ; sh:node dcatapes:VcardKindMinimalConvention ; sh:path dcat:contactPoint ; sh:severity sh:Warning ]\n\tFocus Node: <https://datos.organismo.es/dataset/MDEF:E00003301:ds:CITERRESTRE:000001>\n\tValue Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Dirección General Estratégica e Innovación de la Industria de Defensa Española\", lang=es) ; vcard:hasEmail <mailto:digeid_esind_apoyoext@mde.es> ; vcard:hasTelephone <tel:917743632> ; vcard:hasURL <https://publicaciones.defensa.gob.es/contacts/index/> ; vcard:organization-name Literal(\"http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301\", lang=es) ]\n\tResult Path: dcat:contactPoint\n\tMessage: Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tMessage: It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tDetails:\n\t\tValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\t\t\tSeverity: sh:Warning\n\t\t\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\t\t\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Dirección General Estratégica e Innovación de la Industria de Defensa Española\", lang=es) ; vcard:hasEmail <mailto:digeid_esind_apoyoext@mde.es> ; vcard:hasTelephone <tel:917743632> ; vcard:hasURL <https://publicaciones.defensa.gob.es/contacts/index/> ; vcard:organization-name Literal(\"http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301\", lang=es) ]\n\t\t\tResult Path: vcard:hasUID\n\t\t\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\n\t\t\tMessage: A vcard:Kind should include at least one vcard:hasUID.\nValidation Result in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page <https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19> ; sh:message Literal(\"It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=en), Literal(\"Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\", lang=es) ; sh:node dcatapes:VcardKindMinimalConvention ; sh:path dcat:contactPoint ; sh:severity sh:Warning ]\n\tFocus Node: <https://datos.organismo.es/dataset/MDEF:E00003301:ds:MCARRERA:000001>\n\tValue Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Secretaria General Técnica Unidad Estadísitca Órgano Central\", lang=es) ; vcard:hasEmail <mailto:infoest@oc.mde.es> ; vcard:hasTelephone <tel:93647427> ; vcard:hasURL <https://publicaciones.defensa.gob.es/contacts/index/> ; vcard:organization-name Literal(\"E00003301\", lang=es) ]\n\tResult Path: dcat:contactPoint\n\tMessage: Se recomienda que el punto de contacto utilice vcard:fn, vcard:hasTelephone y vcard:hasUID. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tMessage: It is recommended that the contact point uses vcard:fn, vcard:hasTelephone, and vcard:hasUID. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-19\n\tDetails:\n\t\tValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\t\t\tSeverity: sh:Warning\n\t\t\tSource Shape: [ sh:message Literal(\"A vcard:Kind should include at least one vcard:hasUID.\", lang=en), Literal(\"Un vcard:Kind debería incluir al menos un vcard:hasUID.\", lang=es) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path vcard:hasUID ; sh:severity sh:Warning ]\n\t\t\tFocus Node: [ rdf:type vcard:Kind ; vcard:fn Literal(\"Secretaria General Técnica Unidad Estadísitca Órgano Central\", lang=es) ; vcard:hasEmail <mailto:infoest@oc.mde.es> ; vcard:hasTelephone <tel:93647427> ; vcard:hasURL <https://publicaciones.defensa.gob.es/contacts/index/> ; vcard:organization-name Literal(\"E00003301\", lang=es) ]\n\t\t\tResult Path: vcard:hasUID\n\t\t\tMessage: Un vcard:Kind debería incluir al menos un vcard:hasUID.\n\t\t\tMessage: A vcard:Kind should include at least one vcard:hasUID.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Dataset.temporal ; sh:message Literal(\"El conjunto de datos debería contener al menos un dct:temporal.\", lang=es), Literal(\"The dataset should contain at least one dct:temporal.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:temporal ; sh:severity sh:Warning ]\n\tFocus Node: <https://datos.organismo.es/dataset/MDEF:E00003301:ds:CITERRESTRE:000001>\n\tResult Path: dct:temporal\n\tMessage: The dataset should contain at least one dct:temporal.\n\tMessage: El conjunto de datos debería contener al menos un dct:temporal.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Dataset.temporal ; sh:message Literal(\"El conjunto de datos debería contener al menos un dct:temporal.\", lang=es), Literal(\"The dataset should contain at least one dct:temporal.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:temporal ; sh:severity sh:Warning ]\n\tFocus Node: <https://datos.organismo.es/dataset/MDEF:E00003301:ds:MCARRERA:000001>\n\tResult Path: dct:temporal\n\tMessage: The dataset should contain at least one dct:temporal.\n\tMessage: El conjunto de datos debería contener al menos un dct:temporal.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Dataset.spatial ; sh:message Literal(\"El conjunto de datos debe contener al menos un valor para dct:spatial.\", lang=es), Literal(\"The dataset must contain at least one value for dct:spatial.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:spatial ; sh:severity sh:Warning ]\n\tFocus Node: <https://datos.organismo.es/dataset/MDEF:E00003301:ds:CITERRESTRE:000001>\n\tResult Path: dct:spatial\n\tMessage: The dataset must contain at least one value for dct:spatial.\n\tMessage: El conjunto de datos debe contener al menos un valor para dct:spatial.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Dataset.spatial ; sh:message Literal(\"El conjunto de datos debe contener al menos un valor para dct:spatial.\", lang=es), Literal(\"The dataset must contain at least one value for dct:spatial.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:spatial ; sh:severity sh:Warning ]\n\tFocus Node: <https://datos.organismo.es/dataset/MDEF:E00003301:ds:MCARRERA:000001>\n\tResult Path: dct:spatial\n\tMessage: The dataset must contain at least one value for dct:spatial.\n\tMessage: El conjunto de datos debe contener al menos un valor para dct:spatial.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Distribution.applicableLegislation ; sh:message Literal(\"La distribución debería contener al menos un dcatap:applicableLegislation.\", lang=es), Literal(\"The distribution should contain at least one dcatap:applicableLegislation.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dcatap:applicableLegislation ; sh:severity sh:Warning ]\n\tFocus Node: <https://publicaciones.defensa.gob.es/media/downloadable/files/links/c/a/catalogo-industria-espa_ola-de-defensa-2025-2026.pdf>\n\tResult Path: dcatap:applicableLegislation\n\tMessage: La distribución debería contener al menos un dcatap:applicableLegislation.\n\tMessage: The distribution should contain at least one dcatap:applicableLegislation.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Distribution.applicableLegislation ; sh:message Literal(\"La distribución debería contener al menos un dcatap:applicableLegislation.\", lang=es), Literal(\"The distribution should contain at least one dcatap:applicableLegislation.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dcatap:applicableLegislation ; sh:severity sh:Warning ]\n\tFocus Node: <https://publicaciones.defensa.gob.es/media/downloadable/files/links/a/n/Militares%20de%20carrera%202024.ods>\n\tResult Path: dcatap:applicableLegislation\n\tMessage: La distribución debería contener al menos un dcatap:applicableLegislation.\n\tMessage: The distribution should contain at least one dcatap:applicableLegislation.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Distribution.description ; sh:message Literal(\"La distribución debería contener al menos un dct:description.\", lang=es), Literal(\"The distribution should contain at least one dct:description.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:description ; sh:severity sh:Warning ]\n\tFocus Node: <https://publicaciones.defensa.gob.es/media/downloadable/files/links/c/a/catalogo-industria-espa_ola-de-defensa-2025-2026.pdf>\n\tResult Path: dct:description\n\tMessage: The distribution should contain at least one dct:description.\n\tMessage: La distribución debería contener al menos un dct:description.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Distribution.description ; sh:message Literal(\"La distribución debería contener al menos un dct:description.\", lang=es), Literal(\"The distribution should contain at least one dct:description.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:description ; sh:severity sh:Warning ]\n\tFocus Node: <https://publicaciones.defensa.gob.es/media/downloadable/files/links/a/n/Militares%20de%20carrera%202024.ods>\n\tResult Path: dct:description\n\tMessage: The distribution should contain at least one dct:description.\n\tMessage: La distribución debería contener al menos un dct:description.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Distribution.title ; sh:message Literal(\"La distribución debería contener al menos un dct:title.\", lang=es), Literal(\"The distribution should contain at least one dct:title.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:title ; sh:severity sh:Warning ]\n\tFocus Node: <https://publicaciones.defensa.gob.es/media/downloadable/files/links/c/a/catalogo-industria-espa_ola-de-defensa-2025-2026.pdf>\n\tResult Path: dct:title\n\tMessage: La distribución debería contener al menos un dct:title.\n\tMessage: The distribution should contain at least one dct:title.\nValidation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):\n\tSeverity: sh:Warning\n\tSource Shape: [ foaf:page dcatapes:Distribution.title ; sh:message Literal(\"La distribución debería contener al menos un dct:title.\", lang=es), Literal(\"The distribution should contain at least one dct:title.\", lang=en) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path dct:title ; sh:severity sh:Warning ]\n\tFocus Node: <https://publicaciones.defensa.gob.es/media/downloadable/files/links/a/n/Militares%20de%20carrera%202024.ods>\n\tResult Path: dct:title\n\tMessage: La distribución debería contener al menos un dct:title.\n\tMessage: The distribution should contain at least one dct:title.\n\nResumen validacion: errores=0, warnings=17, conforme=True"
-        }
-      ]
-    },
-    {
-      "@id": "https://publicaciones.defensa.gob.es/media/downloadable/files/links/c/a/catalogo-industria-espa_ola-de-defensa-2025-2026.pdf",
-      "@type": "dcat:Distribution",
-      "dcat:accessURL": {
-        "@id": "https://publicaciones.defensa.gob.es/catalogo-industria-espanola-de-defensa-sexta-edicion-libros-pdf.html"
-      },
-      "dct:format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
-      },
-      "dct:license": {
-        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BYNCSA_4_0"
-      },
-      "dct:issued": [
-        {
-          "@value": "2026-04-30T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dct:modified": [
-        {
-          "@value": "2026-04-30T00:00:00+01:00",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        }
-      ],
-      "dcatap:availability": {
-        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
-      },
-      "dcat:downloadURL": {
-        "@id": "https://publicaciones.defensa.gob.es/media/downloadable/files/links/c/a/catalogo-industria-espa_ola-de-defensa-2025-2026.pdf"
       }
     }
   ]

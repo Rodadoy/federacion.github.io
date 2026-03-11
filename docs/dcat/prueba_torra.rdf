@@ -33,7 +33,7 @@
       <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E99999999">
         <foaf:name xml:lang="es">Ministerio de Asuntos Economicos y Transformacion Digital</foaf:name>
         <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority"/>
-        <dct:identifier>E05068901</dct:identifier>
+        <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E99999998"</dct:identifier>
       </foaf:Agent>
     </dct:publisher>
     <dct:creator rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901"/>
@@ -69,7 +69,7 @@
         <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
         <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/CAT"/>
         <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"/>
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED"/>	
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/OPEN"/>	
         <dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
 		<dcat:distribution>
 		  <dcat:Distribution rdf:about="https://172.17.8.173:8443/dataset/ttec20260226/resource/listado-organismos-xlsx">
@@ -87,6 +87,7 @@
         </dcat:distribution>		
         <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
         <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E99999999"/>
+	    <foaf:page rdf:resource="https://dcat-ap-es.ejemplo.org/api/sla.html"/>
         <dcat:contactPoint>
           <vcard:Kind rdf:nodeID="N67acd72c483b4f0d84a0bb75ee18f4cf">
             <vcard:fn xml:lang="es">Torralba Resino</vcard:fn>
@@ -107,7 +108,7 @@
     <hydra:totalItems rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hydra:totalItems>
     <hydra:itemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</hydra:itemsPerPage>
   </hydra:PagedCollection>
-  <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E99999999">
+  <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E99999990">
     <foaf:name xml:lang="es">TTEC</foaf:name>
     <dct:identifier>EA0023645</dct:identifier>
   </foaf:Agent>

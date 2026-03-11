@@ -86,7 +86,7 @@
 		  </dcat:Distribution>
         </dcat:distribution>		
         <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
-        <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E99999999"/>
+        <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E99999979"/>
 	    <foaf:page rdf:resource="https://dcat-ap-es.ejemplo.org/api/sla.html"/>
         <dcat:contactPoint>
           <vcard:Kind rdf:nodeID="N67acd72c483b4f0d84a0bb75ee18f4cf">
@@ -97,6 +97,12 @@
             <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05233601"/>
           </vcard:Kind>
         </dcat:contactPoint>
+		<dct:creator>
+		  <foaf:Organization>
+			<foaf:name>El Achuntament</foaf:name>
+			<dct:type>http://datos.gob.es/recurso/sector-publico/org/Organismo/L01100015</dct:type>
+		  </foaf:Organization>
+		</dct:creator>
       </dcat:Dataset>
     </dcat:dataset>
   </dcat:Catalog>

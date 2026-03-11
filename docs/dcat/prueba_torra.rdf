@@ -86,7 +86,7 @@
 		  </dcat:Distribution>
         </dcat:distribution>		
         <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
-        <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E99999979"/>
+        <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/A02002834"/>
 	    <foaf:page rdf:resource="https://dcat-ap-es.ejemplo.org/api/sla.html"/>
         <dcat:contactPoint>
           <vcard:Kind rdf:nodeID="N67acd72c483b4f0d84a0bb75ee18f4cf">

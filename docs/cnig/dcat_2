@@ -22,7 +22,8 @@
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/CAT"/>
     <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
     <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
-    
+
+    <dcat:service>
       <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_coverages_scne/formatters/xml">
         <dct:title xml:lang="es">API de acceso y descarga de coberturas (API-Coverages) del Sistema Cartográfico Nacional de España</dct:title>
         <dct:title xml:lang="en">API for accessing and download coverages (API-Coverages) of the National Cartographic System of Spain</dct:title>

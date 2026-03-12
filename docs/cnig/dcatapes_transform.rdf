@@ -42,7 +42,7 @@
   <dcat:endpointURL rdf:resource="https://servicios.idee.es/wfs-inspire/hidrografia?service=WFS&amp;request=DescribeFeatureType&amp;version=2.0.0"/>
   <dcat:endpointURL rdf:resource="https://servicios.idee.es/wfs-inspire/hidrografia?service=WFS&amp;request=ListStoredQueries&amp;version=2.0.0"/>
   <dcat:endpointURL rdf:resource="https://servicios.idee.es/wfs-inspire/hidrografia?service=WFS&amp;request=DescribeStoredQueries&amp;version=2.0.0"/>
-  <dcat:endpointURL rdf:resource="hhttps://servicios.idee.es/wfs-inspire/hidrografia"/>
+ 
   <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
   <dcat:contactPoint>
   <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)">

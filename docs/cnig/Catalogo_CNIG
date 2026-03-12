@@ -1284,6 +1284,7 @@ C.A. Ceuta: June 2023</dct:description>
         <dct:description xml:lang="es">Elementos de hidrografía (aguas físicas) tanto naturales como artificiales (ríos, canales, acequias, lagos, embalses, presas, puntos de interés hidrográfico, etc.), y red hidrográfica (nodos, tramos), con cobertura nacional.</dct:description>
         <dct:description xml:lang="en">Geographic Reference Information of Hydrography of the National Cartographic System of Spain.</dct:description>
         <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
+		<dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"/>
         <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_dd313021"/>
         <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_06b1eec4"/>
         <dct:identifier>spaignHIDROGRAFIA_IGR</dct:identifier>

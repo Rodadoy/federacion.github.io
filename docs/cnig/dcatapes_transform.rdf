@@ -108,10 +108,7 @@
       <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
       <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
       <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-      <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_features_scne/formatters/xml"/>
-      <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignatom_download_service/formatters/xml"/>
       <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_Hidrografia_aguasfisicas/formatters/xml"/>
-      <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_hidrografia/formatters/xml"/>
     </dcat:Distribution>
   </dcat:distribution>
 </dcat:Dataset>

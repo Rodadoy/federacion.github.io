@@ -37,6 +37,7 @@
 <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_Hidrografia_aguasfisicas/formatters/xml">
   <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
   <dct:title xml:lang="es">WFS de Hidrografia de España de Aguas Físicas y del Modelo de Red</dct:title>
+  <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"/>
   <dcat:endpointURL rdf:resource="https://servicios.idee.es/wfs-inspire/hidrografia?service=WFS&amp;request=GetCapabilities&amp;version=2.0.0"/>
   <dcat:endpointURL rdf:resource="https://servicios.idee.es/wfs-inspire/hidrografia?service=WFS&amp;request=DescribeFeatureType&amp;version=2.0.0"/>
   <dcat:endpointURL rdf:resource="https://servicios.idee.es/wfs-inspire/hidrografia?service=WFS&amp;request=ListStoredQueries&amp;version=2.0.0"/>

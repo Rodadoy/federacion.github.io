@@ -60,7 +60,7 @@
   <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
   <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
   <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-  <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&amp;VERSION=2.0.2&amp;REQUEST=GetRecordById&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;ElementSetName=full&amp;ID=spaignHIDROGRAFIA_IGR#igr_hidrografia"/>
+  <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR/formatters/xml"/>
 </dcat:DataService>
 <dcat:Dataset rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR/formatters/xml">
   <dct:title xml:lang="es">Hidrografia de España</dct:title>
@@ -68,6 +68,7 @@
   <dct:description xml:lang="es">Elementos de hidrografía (aguas físicas) tanto naturales como artificiales (ríos, canales, acequias, lagos, embalses, presas, puntos de interés hidrográfico, etc.), y red hidrográfica (nodos, tramos), con cobertura nacional.</dct:description>
   <dct:description xml:lang="en">Geographic Reference Information of Hydrography of the National Cartographic System of Spain.</dct:description>
   <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
+  <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"/>
   <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_dd313021"/>
   <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_06b1eec4"/>
   <dct:identifier>spaignHIDROGRAFIA_IGR</dct:identifier>

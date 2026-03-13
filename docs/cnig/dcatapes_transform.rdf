@@ -27,7 +27,14 @@
     <dcat:dataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMDT05/formatters/xml"/>
     <dcat:dataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR/formatters/xml"/>
   </dcat:Catalog>
-    
+  <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
+    <vcard:organization-name xml:lang="es">Instituto Geográfico Nacional</vcard:organization-name>
+    <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
+  </vcard:Organization>
+  <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)">
+    <vcard:organization-name xml:lang="es">Infraestructura de Datos Espaciales de España (IDEE)</vcard:organization-name>
+    <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
+  </vcard:Organization>
   <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_maps_scne/formatters/xml">
     <dct:title xml:lang="es">API de visualización de información geográfica de referencia y de ortoimágenes (API-Maps) del Sistema Cartográfico Nacional de España.</dct:title>
     <dct:title xml:lang="en">Map visualization API (API-Maps) of the National Cartographic System of Spain.</dct:title>
@@ -47,11 +54,6 @@
     <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&amp;VERSION=2.0.2&amp;REQUEST=GetRecordById&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;ElementSetName=full&amp;ID=spaign_capasmapabase"/>
-    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&amp;VERSION=2.0.2&amp;REQUEST=GetRecordById&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;ElementSetName=full&amp;ID=spaignMosaicoSentinel2"/>
-    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&amp;VERSION=2.0.2&amp;REQUEST=GetRecordById&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;ElementSetName=full&amp;ID=spaignPNOA2023#PNOA2023"/>
-    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&amp;VERSION=2.0.2&amp;REQUEST=GetRecordById&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;ElementSetName=full&amp;ID=spaignPNOA2022#PNOA2022"/>
-    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/spa/csw?SERVICE=CSW&amp;VERSION=2.0.2&amp;REQUEST=GetRecordById&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;ElementSetName=full&amp;ID=spaignPNOA2021#PNOA2021"/>
     <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMDT05/formatters/xml"/>
   </dcat:DataService>
  
@@ -59,29 +61,18 @@
     <dct:title xml:lang="es">API de acceso y descarga de coberturas (API-Coverages) del Sistema Cartográfico Nacional de España</dct:title>
     <dct:title xml:lang="en">API for accessing and download coverages (API-Coverages) of the National Cartographic System of Spain</dct:title>
     <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
-    <dcat:contactPoint>
-      <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
-        <vcard:fn xml:lang="es">Instituto Geográfico Nacional</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
-      </vcard:Organization>
-    </dcat:contactPoint>
+    <dcat:contactPoint rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional"/>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras"/>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
-
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
     <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMDT05/formatters/xml"/>
-    <dcat:servesDataset rdf:resource="https://www.mapama.gob.es/ide/metadatos/srv/spa/csw?SERVICE=CSW&amp;VERSION=2.0.2&amp;REQUEST=GetRecordById&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;ElementSetName=full&amp;ID=bf02855d-8351-445c-8cd6-e103699c102e#ESNZSNCZIMPFT010"/>
-    <dcat:servesDataset rdf:resource="https://www.mapama.gob.es/ide/metadatos/srv/spa/csw?SERVICE=CSW&amp;VERSION=2.0.2&amp;REQUEST=GetRecordById&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;ElementSetName=full&amp;ID=f8d6869d-d585-4beb-ba72-2556098a7899#ESNZSNCZIMPFT100"/>
-    <dcat:servesDataset rdf:resource="https://www.mapama.gob.es/ide/metadatos/srv/spa/csw?SERVICE=CSW&amp;VERSION=2.0.2&amp;REQUEST=GetRecordById&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;ElementSetName=full&amp;ID=68de70b5-117a-4943-b864-f856218be37f#ESNZSNCZIMPFT500"/>
-    <dcat:servesDataset rdf:resource="https://www.mapama.gob.es/ide/metadatos/srv/spa/csw?SERVICE=CSW&amp;VERSION=2.0.2&amp;REQUEST=GetRecordById&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;ElementSetName=full&amp;ID=e5da1aa1-91dc-4b9b-a6d8-7b2326455f3c#ESMAGRAMADGCOSTASSNCZIMP1000003"/>
-    <dcat:servesDataset rdf:resource="https://www.mapama.gob.es/ide/metadatos/srv/spa/csw?SERVICE=CSW&amp;VERSION=2.0.2&amp;REQUEST=GetRecordById&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;ElementSetName=full&amp;ID=6e3a56da-a5bc-4227-9960-ffae3327bff8#ESMAGRAMADGCOSTASSNCZIMP5000004"/>
-    <dcat:servesDataset rdf:resource="https://www.mapama.gob.es/ide/metadatos/srv/spa/csw?SERVICE=CSW&amp;VERSION=2.0.2&amp;REQUEST=GetRecordById&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;ElementSetName=full&amp;ID=873f5b08-4263-48ec-9345-3aaacd53d1e0#ESMAGRAMADGAGUASNCZIMDT0001"/>
-  </dcat:DataService>
-    
+    <dcat:servesDataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR/formatters/xml"/>
+  </dcat:DataService>    
+
   <dcat:Dataset rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMDT05/formatters/xml">
     <dct:title xml:lang="es">Modelo Digital del Terreno con paso de malla de 5 metros (MDT05) de España</dct:title>
     <dct:title xml:lang="en">Digital Terrain Model - DTM05 of Spain</dct:title>
@@ -105,12 +96,7 @@
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-    <dcat:contactPoint>
-      <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)">
-        <vcard:fn xml:lang="es">Infraestructura de Datos Espaciales de España (IDEE)</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
-      </vcard:Organization>
-    </dcat:contactPoint>
+    <dcat:contactPoint rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)"/>
     <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
@@ -171,12 +157,7 @@
     <dcat:keyword xml:lang="es">Presas</dcat:keyword>
     <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-    <dcat:contactPoint>
-      <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)">
-        <vcard:fn xml:lang="es">Infraestructura de Datos Espaciales de España (IDEE)</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
-      </vcard:Organization>
-    </dcat:contactPoint>
+    <dcat:contactPoint rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)"/>
     <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
     <adms:identifier>

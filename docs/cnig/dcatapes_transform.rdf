@@ -45,12 +45,7 @@
     <dct:title xml:lang="es">API de visualización de información geográfica de referencia y de ortoimágenes (API-Maps) del Sistema Cartográfico Nacional de España.</dct:title>
     <dct:title xml:lang="en">Map visualization API (API-Maps) of the National Cartographic System of Spain.</dct:title>
     <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
-    <dcat:contactPoint rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
-      <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
-        <vcard:fn xml:lang="es">Instituto Geográfico Nacional</vcard:fn>
-        <vcard:hasEmail rdf:resource="mailto:ign@mitma.es"/>
-      </vcard:Organization>
-    </dcat:contactPoint>
+    <dcat:contactPoint rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional"/>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras"/>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/transporte"/>

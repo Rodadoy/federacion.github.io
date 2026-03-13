@@ -27,19 +27,24 @@
     <dcat:dataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMDT05/formatters/xml"/>
     <dcat:dataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR/formatters/xml"/>
   </dcat:Catalog>
+
   <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
+    <vcard:fn xml:lang="es">IGN</vcard:fn>
     <vcard:organization-name xml:lang="es">Instituto Geográfico Nacional</vcard:organization-name>
     <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
   </vcard:Organization>
+
   <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InfraestructuradeDatosEspacialesdeEspana(IDEE)">
+    <vcard:fn xml:lang="es">IDEE</vcard:fn>
     <vcard:organization-name xml:lang="es">Infraestructura de Datos Espaciales de España (IDEE)</vcard:organization-name>
     <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
   </vcard:Organization>
+
   <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_maps_scne/formatters/xml">
     <dct:title xml:lang="es">API de visualización de información geográfica de referencia y de ortoimágenes (API-Maps) del Sistema Cartográfico Nacional de España.</dct:title>
     <dct:title xml:lang="en">Map visualization API (API-Maps) of the National Cartographic System of Spain.</dct:title>
     <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
-    <dcat:contactPoint>
+    <dcat:contactPoint rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">
         <vcard:fn xml:lang="es">Instituto Geográfico Nacional</vcard:fn>
         <vcard:hasEmail rdf:resource="mailto:ign@mitma.es"/>
@@ -58,6 +63,7 @@
   </dcat:DataService>
  
   <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_coverages_scne/formatters/xml">
+    <dcat:endpointURL rdf:resource="https://www.ign.es/wms-inspire/unidades-administrativas?request=GetCapabilities&amp;service=WMS&amp;version=1.3.0"/>
     <dct:title xml:lang="es">API de acceso y descarga de coberturas (API-Coverages) del Sistema Cartográfico Nacional de España</dct:title>
     <dct:title xml:lang="en">API for accessing and download coverages (API-Coverages) of the National Cartographic System of Spain</dct:title>
     <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
@@ -74,6 +80,7 @@
   </dcat:DataService>    
 
   <dcat:Dataset rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignMDT05/formatters/xml">
+    <dcat:endpointURL rdf:resource="https://www.ign.es/wms-inspire/unidades-administrativas?request=GetCapabilities&amp;service=WMS&amp;version=1.3.0"/>
     <dct:title xml:lang="es">Modelo Digital del Terreno con paso de malla de 5 metros (MDT05) de España</dct:title>
     <dct:title xml:lang="en">Digital Terrain Model - DTM05 of Spain</dct:title>
     <dct:description xml:lang="es">Modelo digital del terreno realizado a partir de las nubes de puntos LIDAR de la primera Cobertura con un paso de malla de 5 metros.</dct:description>
@@ -131,6 +138,7 @@
   </dcat:Dataset>
 
   <dcat:Dataset rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR/formatters/xml">
+    
     <dct:title xml:lang="es">Hidrografia de España</dct:title>
     <dct:title xml:lang="en">Hydrography of Spain</dct:title>
     <dct:description xml:lang="es">Elementos de hidrografía (aguas físicas) tanto naturales como artificiales (ríos, canales, acequias, lagos, embalses, presas, puntos de interés hidrográfico, etc.), y red hidrográfica (nodos, tramos), con cobertura nacional.</dct:description>

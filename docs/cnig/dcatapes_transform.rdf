@@ -45,7 +45,7 @@
       </vcard:Organization>
     </dcat:contactPoint>
     <dcat:distribution rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignNGBE/formatters/html"/>
-    <dcat:distribution rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignNGBE/formatters/xml"/>
+
     <dcat:keyword xml:lang="es">Nombres geográficos</dcat:keyword>
     <dcat:keyword xml:lang="es">High-value dataset</dcat:keyword>
     <dcat:keyword xml:lang="es">Geospatial</dcat:keyword>

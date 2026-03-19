@@ -18,7 +18,12 @@
     <foaf:name xml:lang="en">Centro Nacional de Información Geográfica (CNIG)</foaf:name>
   </foaf:Organization>
   <dcat:Catalog rdf:about="http://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/home">
-
+    <dcat:dataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR"/>
+    <dcat:record rdf:resource="http://www.idee.es/csw-codsi-idee/srv/spa/catalog-record"/>
+    <dcat:service rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_features_scne"/>
+    <dcat:service rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignatom_download_service"/>
+    <dcat:service rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_Hidrografia_aguasfisicas"/>
+    <dcat:service rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_hidrografia"/>
     <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
     <dct:description xml:lang="es">Conjunto de Datasets del CNIG</dct:description>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-01T00:00:00+01:00</dct:issued>
@@ -40,7 +45,7 @@
       </vcard:Organization>
     </dcat:contactPoint>
     <dcat:distribution rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR/formatters/html"/>
-    <dcat:distribution rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR/formatters/xml"/>
+
     <dcat:keyword xml:lang="es">Hidrografía</dcat:keyword>
     <dcat:keyword xml:lang="es">High-value dataset</dcat:keyword>
     <dcat:keyword xml:lang="es">Earth observation and environment</dcat:keyword>
@@ -112,14 +117,7 @@
     <dct:title xml:lang="es">Distribución asociado a este Dataset</dct:title>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Distribution>
-  <dcat:Distribution rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR/formatters/xml">
-    <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_features_scne"/>
-    <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignatom_download_service"/>
-    <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_Hidrografia_aguasfisicas"/>
-    <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_hidrografia"/>
-    <dcat:accessURL rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR/formatters/xml"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
-  </dcat:Distribution>
+
   <dcat:CatalogRecord rdf:about="http://www.idee.es/csw-codsi-idee/srv/spa/catalog-record">
     <adms:status rdf:resource="http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
     <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES"/>

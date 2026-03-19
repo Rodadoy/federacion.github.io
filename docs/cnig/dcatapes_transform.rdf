@@ -125,6 +125,7 @@
     <dct:title xml:lang="es">Información de Registro de Catálogo</dct:title>
   </dcat:CatalogRecord>
   <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_features_scne">
+    <dcat:endpointURL rdf:resource="hhttps://servicios.idee.es/wfs-inspire/hidrografia"/>
     <dcat:accessURL rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR/formatters/xml"/>
     <dcat:contactPoint>
       <vcard:Organization rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/InstitutoGeograficoNacional">

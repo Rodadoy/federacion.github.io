@@ -31,12 +31,6 @@
     </dct:language>
     <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/cultura-ocio"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-	<dcat:record>
-	<dcat:CatalogRecord rdf:about="http://dcat-ap-es.ejemplo.org/registro-001">
-		<foaf:primaryTopic rdf:resource="http://dcat-ap-es.ejemplo.org/dataservice/dataservice-CSW-ejemplo-1"/>
-		<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-02T09:00:00+01:00</dct:modified>
-	</dcat:CatalogRecord>
-	</dcat:record>
     <dcat:distribution>
       <dcat:Distribution rdf:about="https://172.17.8.174:8443/dataset/testdesa2/resource/distribucion-1-txt">
         <dct:title xml:lang="es">Distribucion 1 txt</dct:title>

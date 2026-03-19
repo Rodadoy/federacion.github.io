@@ -41,8 +41,6 @@
         <dct:creator>
             <foaf:Agent rdf:about="http://organismocreador.es">
               <foaf:name xml:lang="es">Organismo Creador</foaf:name>
-              <dct:identifier>9999999</dct:identifier>
-              <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority"/>
             </foaf:Agent>
         </dct:creator>   
 

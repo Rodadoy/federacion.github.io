@@ -18,12 +18,7 @@
     <foaf:name xml:lang="en">Centro Nacional de Información Geográfica (CNIG)</foaf:name>
   </foaf:Organization>
   <dcat:Catalog rdf:about="http://www.idee.es/csw-codsi-idee/srv/spa/catalog.search#/home">
-    <dcat:dataset rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR"/>
-    <dcat:record rdf:resource="http://www.idee.es/csw-codsi-idee/srv/spa/catalog-record"/>
-    <dcat:service rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_features_scne"/>
-    <dcat:service rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignatom_download_service"/>
-    <dcat:service rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwfs_Hidrografia_aguasfisicas"/>
-    <dcat:service rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwms_hidrografia"/>
+
     <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
     <dct:description xml:lang="es">Conjunto de Datasets del CNIG</dct:description>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-01T00:00:00+01:00</dct:issued>

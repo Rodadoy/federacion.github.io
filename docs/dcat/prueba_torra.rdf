@@ -167,7 +167,7 @@
         <dcat:distribution rdf:resource="https://172.17.8.174:8443/dataset/ttec20260316/resource/catalog-15-rdf"/>
         <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
         <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901"/>
-        <dct:creator rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044367"/>
+        <dct:creator rdf:resource="EA0044367"/>
         <dcat:contactPoint>
           <vcard:Kind rdf:nodeID="Nbe33355021e84fe8b1f1aa6d6b14eca9">
             <vcard:fn xml:lang="es">Contacto A</vcard:fn>

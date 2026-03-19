@@ -124,7 +124,7 @@
         <dct:identifier>http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901</dct:identifier>
       </foaf:Agent>
     </dct:publisher>
-    <dct:creator rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/L01100054"/>
+    <dct:creator rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901"/>
     <dct:hasPart rdf:resource="https://datos.gob.es/catalogo/part-1"/>
     <dct:isPartOf rdf:resource="https://datos.gob.es/catalogo/main"/>
     <dcat:catalog rdf:resource="https://datos.gob.es/catalogo/related"/>
@@ -161,7 +161,7 @@
         <dcat:distribution rdf:resource="https://172.17.8.174:8443/dataset/ttec20260316/resource/catalog-15-rdf"/>
         <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
         <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068901"/>
-        <dct:creator rdf:resource="EA0044367"/>
+        <dct:creator rdf:resource="http://uri.id/EA0044367"/>
         <dcat:contactPoint>
           <vcard:Kind rdf:nodeID="Nbe33355021e84fe8b1f1aa6d6b14eca9">
             <vcard:fn xml:lang="es">Contacto A</vcard:fn>

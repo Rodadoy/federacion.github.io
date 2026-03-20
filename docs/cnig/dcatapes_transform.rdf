@@ -36,6 +36,7 @@
     <dct:title xml:lang="es">Información de Registro de Catálogo</dct:title>
   </dcat:CatalogRecord>
   <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_maps_scne">
+
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
     <dcat:endpointURL rdf:resource="https://api-maps.idee.es/"/>
     <dcat:keyword xml:lang="es">Elevaciones</dcat:keyword>
@@ -109,6 +110,7 @@
         <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
       </vcard:Organization>
     </dcat:contactPoint>
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras"/>
   </dcat:DataService>
   <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignwmts_pnoa-ma">
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
@@ -140,6 +142,7 @@
         <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
       </vcard:Organization>
     </dcat:contactPoint>
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras"/>
   </dcat:DataService>
   <dcat:Dataset rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2024">
 

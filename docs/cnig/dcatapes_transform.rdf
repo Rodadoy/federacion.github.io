@@ -201,6 +201,7 @@ Valencian Community: November 2025</dct:description>
         <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
       </vcard:Organization>
     </dcat:contactPoint>
+  <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras"/>
   </dcat:Dataset>
   <dcat:Distribution rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignPNOA2024/formatters/html">
     <dcat:accessService rdf:resource="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignapi_maps_scne"/>

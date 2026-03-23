@@ -217,8 +217,8 @@
     <dct:description xml:lang="es">Elementos de hidrografía (aguas físicas) tanto naturales como artificiales (ríos, canales, acequias, lagos, embalses, presas, puntos de interés hidrográfico, etc.), y red hidrográfica (nodos, tramos), con cobertura nacional.</dct:description>
     <dct:description xml:lang="en">Geographic Reference Information of Hydrography of the National Cartographic System of Spain.</dct:description>
     <dct:identifier>spaignHIDROGRAFIA_IGR</dct:identifier>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-01</dct:issued>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-01</dct:issued>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-01-01</dct:issued>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-01-01</dct:issued>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
     <dct:spatial>
@@ -261,8 +261,8 @@
     <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
     <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES"/>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-01</dct:issued>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-01</dct:issued>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-01-01</dct:issued>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-01-01</dct:issued>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
     <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
     <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
@@ -279,8 +279,8 @@
     <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
     <dct:conformsTo rdf:resource="https://datosgobes.github.io/DCAT-AP-ES"/>
     <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-01</dct:issued>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-01</dct:issued>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-01-01</dct:issued>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-01-01</dct:issued>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
     <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
     <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>

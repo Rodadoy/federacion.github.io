@@ -75,6 +75,7 @@
     <dct:title xml:lang="en">API-Features of spatial object of Spain</dct:title>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg/2008/1205"/>
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
   </dcat:DataService>
   <dcat:DataService rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignatom_download_service">
     <dcat:contactPoint>
@@ -83,6 +84,7 @@
         <vcard:hasEmail rdf:resource="mailto:ign@transportes.gob.es"/>
       </vcard:Organization>
     </dcat:contactPoint>
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
     <dcat:endpointURL rdf:resource="https://www.ign.es/atom/ds.es.xml"/>
     <dcat:endpointURL rdf:resource="https://www.ign.es/atom/osd/opensearchdescription.xml"/>
     <dcat:keyword xml:lang="es">Unidades administrativas</dcat:keyword>
@@ -123,6 +125,7 @@
         <vcard:hasEmail rdf:resource="mailto:ign@mitma.es"/>
       </vcard:Organization>
     </dcat:contactPoint>
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
     <dcat:endpointDescription rdf:resource="https://servicios.idee.es/wfs-inspire/hidrografia?service=WFS&amp;request=GetCapabilities&amp;version=2.0.0"/>
     <dcat:endpointURL rdf:resource="hhttps://servicios.idee.es/wfs-inspire/hidrografia"/>
     <dcat:endpointURL rdf:resource="https://servicios.idee.es/wfs-inspire/hidrografia?service=WFS&amp;request=DescribeFeatureType&amp;version=2.0.0"/>
@@ -157,6 +160,7 @@
         <vcard:hasEmail rdf:resource="mailto:ign@mitma.es"/>
       </vcard:Organization>
     </dcat:contactPoint>
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"/>
     <dcat:endpointDescription rdf:resource="https://servicios.idee.es/wms-inspire/hidrografia?REQUEST=GetCapabilities&amp;Service=WMS&amp;version=1.3.0"/>
     <dcat:endpointURL rdf:resource="https://servicios.idee.es/wms-inspire/hidrografia"/>
     <dcat:endpointURL rdf:resource="https://servicios.idee.es/wms-inspire/hidrografia?REQUEST=GetCapabilities&amp;Service=WMS&amp;version=1.3.0"/>

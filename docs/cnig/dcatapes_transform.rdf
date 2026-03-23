@@ -266,7 +266,7 @@
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
     <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
     <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dct:title xml:lang="es">Distribución asociado a este Dataset</dct:title>
+    <dct:title xml:lang="es">Pagina de descarga asociada a este Dataset en </dct:title>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Distribution>
   <dcat:Distribution rdf:about="https://www.idee.es/csw-codsi-idee/srv/api/records/spaignHIDROGRAFIA_IGR/formatters/xml">
@@ -284,7 +284,7 @@
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
     <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
     <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dct:title xml:lang="es">Distribución asociado a este Dataset</dct:title>
+    <dct:title xml:lang="es">Distribución en xml bajo normativA INSPIRE</dct:title>
     <foaf:page rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Distribution>
   <foaf:Organization rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901">
